@@ -3,7 +3,7 @@ import Foundation
 // Parse the string into an AST.
 
 func read(str: String) -> String {
-  return str
+  return readString(str)
 }
 
 // Walk the AST and evaluate it.
@@ -15,7 +15,7 @@ func eval(ast: String) -> String {
 // Convert the value into a human-readable string for printing.
 
 func _print(exp: String) -> String {
-  return exp
+  return printString(exp)
 }
 
 // READ/EVAL.

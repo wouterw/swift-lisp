@@ -1,0 +1,3 @@
+func printString() -> String {
+  return ""
+}
